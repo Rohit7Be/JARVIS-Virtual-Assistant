@@ -49,7 +49,7 @@ recognition.onresult = (event) => {
 
 btn.addEventListener('click', () => {
     content.textContent = "Listening...."
-    speak("Listening..")
+    
     recognition.start();
 
 })
